@@ -1,7 +1,5 @@
 # Research Guide Structure
 
-
-
 ```mermaid
 %%{init: {'flowchart': {'curve': 'stepAfter'}}}%%
 flowchart TD
