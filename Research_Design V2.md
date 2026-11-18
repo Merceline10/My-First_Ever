@@ -1,8 +1,7 @@
 
-import base64
-import requests
+## Research Guide Structure
 
-mermaid_code = """
+```mermaid
 flowchart TD
     classDef startend fill:#1e293b,stroke:#0f172a,stroke-width:2px,color:#ffffff,font-weight:bold
     classDef setup fill:#e0f2fe,stroke:#0284c7,stroke-width:2px,color:#0c4a6e
@@ -19,12 +18,14 @@ flowchart TD
     Ch1 --> Ch2 --> Ch3 --> Ch4 --> Ch5 --> Ch6
     Ch5 -. "Answers questions posed in" .-> Ch1
     Ch5 -. "Validates or challenges" .-> Ch2
-"""
 
-# Encode the Mermaid string to base64 and fetch the rendered image
-graphbytes = mermaid_code.encode("utf8")
-base64_string = base64.urlsafe_b64encode(graphbytes).decode("ascii")
-url = f"https://mermaid.ink/img/{base64_string}"  # Change /img/ to /svg/ for vector output
+    click Ch1 "./01-introduction.md" "Open Chapter 1"
+    click Ch2 "./02-literature-review.md" "Open Chapter 2"
+    click Ch3 "./03-methodology.md" "Open Chapter 3"
+    click Ch4 "./04-findings.md" "Open Chapter 4"
+    click Ch5 "./05-discussion.md" "Open Chapter 5"
+    click Ch6 "./06-conclusion.md" "Open Chapter 6"
+```
 
 response = requests.get(url)
 with open("research_structure.png", "wb") as f:
