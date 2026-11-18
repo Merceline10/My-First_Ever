@@ -19,13 +19,7 @@ flowchart TD
     Ch5 -. "Answers questions posed in" .-> Ch1
     Ch5 -. "Validates or challenges" .-> Ch2
 
-    click Ch1 "./01-introduction.md" "Open Chapter 1"
-    click Ch2 "./02-literature-review.md" "Open Chapter 2"
-    click Ch3 "./03-methodology.md" "Open Chapter 3"
-    click Ch4 "./04-findings.md" "Open Chapter 4"
-    click Ch5 "./05-discussion.md" "Open Chapter 5"
-    click Ch6 "./06-conclusion.md" "Open Chapter 6"
-```
+   ```
 
 response = requests.get(url)
 with open("research_structure.png", "wb") as f:
