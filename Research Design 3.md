@@ -22,10 +22,6 @@ flowchart TD
     Ch1 --> C1_4
     Ch1 --> C1_5
 ```
-
----
-
-
 ```mermaid
 %%{init: {'flowchart': {'curve': 'stepAfter'}}}%%
 flowchart TD
