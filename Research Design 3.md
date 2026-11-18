@@ -40,10 +40,6 @@ flowchart TD
     Ch2 --> C2_3
     Ch2 --> C2_4
 ```
-
----
-
-
 ```mermaid
 %%{init: {'flowchart': {'curve': 'stepAfter'}}}%%
 flowchart TD
@@ -64,10 +60,6 @@ flowchart TD
     Ch3 --> C3_4
     Ch3 --> C3_5
 ```
-
----
-
-
 ```mermaid
 %%{init: {'flowchart': {'curve': 'stepAfter'}}}%%
 flowchart TD
@@ -86,10 +78,6 @@ flowchart TD
     Ch4 --> C4_3
     Ch4 --> C4_4
 ```
-
----
-
-
 ```mermaid
 %%{init: {'flowchart': {'curve': 'stepAfter'}}}%%
 flowchart TD
@@ -108,10 +96,6 @@ flowchart TD
     Ch5 --> C5_3
     Ch5 --> C5_4
 ```
-
----
-
-
 ```mermaid
 %%{init: {'flowchart': {'curve': 'stepAfter'}}}%%
 flowchart TD
