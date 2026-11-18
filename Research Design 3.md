@@ -25,7 +25,6 @@ flowchart TD
 
 ---
 
-## Chapter 2: Literature Review
 
 ```mermaid
 %%{init: {'flowchart': {'curve': 'stepAfter'}}}%%
@@ -48,7 +47,6 @@ flowchart TD
 
 ---
 
-## Chapter 3: Methodology & Research Design
 
 ```mermaid
 %%{init: {'flowchart': {'curve': 'stepAfter'}}}%%
@@ -73,7 +71,6 @@ flowchart TD
 
 ---
 
-## Chapter 4: Findings / Results
 
 ```mermaid
 %%{init: {'flowchart': {'curve': 'stepAfter'}}}%%
@@ -96,7 +93,6 @@ flowchart TD
 
 ---
 
-## Chapter 5: Discussion & Analysis
 
 ```mermaid
 %%{init: {'flowchart': {'curve': 'stepAfter'}}}%%
@@ -119,7 +115,6 @@ flowchart TD
 
 ---
 
-## Chapter 6: Conclusion & Recommendations
 
 ```mermaid
 %%{init: {'flowchart': {'curve': 'stepAfter'}}}%%
