@@ -1,10 +1,10 @@
 ## Research Guide Structure
 ```mermaid
 flowchart TD
-    classDef startend fill:#1e293b,stroke:#0f172a,stroke-width:2px,color:#ffffff,font-weight:bold,text-align:right
-    classDef setup fill:#e0f2fe,stroke:#0284c7,stroke-width:2px,color:#0c4a6e,text-align:right
-    classDef execution fill:#fef3c7,stroke:#d97706,stroke-width:2px,color:#78350f,text-align:right
-    classDef synthesis fill:#dcfce7,stroke:#16a34a,stroke-width:2px,color:#14532d,text-align:right
+    classDef startend fill:#1e293b,stroke:#0f172a,stroke-width:2px,color:#ffffff,font-weight:bold,text-align:left
+    classDef setup fill:#e0f2fe,stroke:#0284c7,stroke-width:2px,color:#0c4a6e,text-align:left
+    classDef execution fill:#fef3c7,stroke:#d97706,stroke-width:2px,color:#78350f,text-align:left
+    classDef synthesis fill:#dcfce7,stroke:#16a34a,stroke-width:2px,color:#14532d,text-align:left
 
     Ch1["<b>Chapter 1: Introduction & Problem Statement</b><br/>• Background & Context<br/>• Research Questions / Hypotheses<br/>• Scope & Significance"]:::startend
     Ch2["<b>Chapter 2: Literature Review</b><br/>• Synthesis of Existing Work<br/>• Identification of Research Gaps<br/>• Theoretical / Conceptual Framework"]:::setup
