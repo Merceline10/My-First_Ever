@@ -21,9 +21,7 @@ flowchart TB
         direction LR
         Ch4 --> Ch5
     end
-
     Ch5 --> Ch6
-
     Ch5 -.->|"Answers questions posed in"| Ch1
     Ch5 -.->|"Validates or challenges"| Ch2
 
@@ -36,6 +34,5 @@ flowchart TB
     class Ch2 blue;
     class Ch3,Ch4 orange;
     class Ch5 green;
-
     style Discussion fill:transparent,stroke:transparent
 
