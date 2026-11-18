@@ -7,11 +7,11 @@ flowchart TD
     classDef synthesis fill:#dcfce7,stroke:#16a34a,stroke-width:2px,color:#14532d,text-align:left
 
     Ch1["<b>Chapter 1: Introduction & Problem Statement</b><br/>• Background & Context<br/>• Research Questions / Hypotheses<br/>• Scope & Significance"]:::startend,text-align:center
-    Ch2["<b>Chapter 2: Literature Review</b><br/>• Synthesis of Existing Work<br/>• Identification of Research Gaps<br/>• Theoretical / Conceptual Framework"]:::setup
-    Ch3["<b>Chapter 3: Methodology & Design</b><br/>• Sampling Strategy & Participants<br/>• Data Collection Instruments<br/>• Validity, Reliability & Ethics"]:::execution
-    Ch4["<b>Chapter 4: Findings / Results</b><br/>• Objective Data Presentation<br/>• Statistical Outputs / Themes"]:::execution
-    Ch5["<b>Chapter 5: Discussion & Analysis</b><br/>• Interpreting Results vs. Literature<br/>• Unexpected Findings<br/>• Study Limitations"]:::synthesis
-    Ch6["<b>Chapter 6: Conclusion & Recommendations</b><br/>• Summary of Contributions<br/>• Practical Implications<br/>• Future Research Directions"]:::startend
+    Ch2["<b>Chapter 2: Literature Review</b><br/>• Synthesis of Existing Work<br/>• Identification of Research Gaps<br/>• Theoretical / Conceptual Framework"]:::setup,text-align:center
+    Ch3["<b>Chapter 3: Methodology & Design</b><br/>• Sampling Strategy & Participants<br/>• Data Collection Instruments<br/>• Validity, Reliability & Ethics"]:::execution,text-align:center
+    Ch4["<b>Chapter 4: Findings / Results</b><br/>• Objective Data Presentation<br/>• Statistical Outputs / Themes"]:::execution,text-align:center
+    Ch5["<b>Chapter 5: Discussion & Analysis</b><br/>• Interpreting Results vs. Literature<br/>• Unexpected Findings<br/>• Study Limitations"]:::synthesis,text-align:center
+    Ch6["<b>Chapter 6: Conclusion & Recommendations</b><br/>• Summary of Contributions<br/>• Practical Implications<br/>• Future Research Directions"]:::startend,text-align:center
 
     Ch1 --> Ch2 --> Ch3 --> Ch4 --> Ch5 --> Ch6
     Ch5 -. "Answers questions posed in" .-> Ch1
