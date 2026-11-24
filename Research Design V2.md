@@ -1,6 +1,6 @@
 # Complete Research Guide Structure
 
-
+```mermaid
 %%{init: {
   "theme": "base",
   "themeVariables": {
