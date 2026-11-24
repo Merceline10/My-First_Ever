@@ -1,4 +1,5 @@
-
+# Research Design and Methodological Workflow
+```mermaid
 flowchart TD
 
     A["Research Problem and Knowledge Gap"]
@@ -37,3 +38,4 @@ flowchart TD
     class C,I blue;
     class G purple;
     class D,E,H orange;
+```
