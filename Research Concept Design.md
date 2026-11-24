@@ -1,6 +1,8 @@
 
 # Research Guide Structure
 ```mermaid
+%%{init: {'flowchart': {'curve': 'stepAfter'}}}%%
+flowchart TD
 
     A["<b>Research problem</b><br/>Misclassification of dryland forests and other vegetation types"]
 
