@@ -1,5 +1,5 @@
 
-flowchart TB
+# Research Guide Structure
 
     A["<b>Research problem</b><br/>Misclassification of dryland forests and other vegetation types"]
 
