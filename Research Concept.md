@@ -19,21 +19,21 @@
 
 flowchart TB
 
-    A["<span style='font-family:Georgia,serif;font-size:19px;font-weight:bold'>Research Problem</span><br/><span style='font-family:Arial,sans-serif;font-size:15px;font-style:italic'>Difficulty of reliably distinguishing dryland forests from other vegetation types, particularly wooded grasslands and other herbaceous vegetation in Kenya's dryland ecosystems.</span>"]
+    A["<span style='font-family:Georgia,serif;font-size:19px;font-weight:bold'>Research Problem</span><br/><span style='font-family:Arial,sans-serif;font-size:16px;font-style:italic'>Difficulty of reliably distinguishing dryland forests from other vegetation types, particularly wooded grasslands and other herbaceous vegetation in Kenya's dryland ecosystems.</span>"]
 
-    B["<span style='font-family:Georgia,serif;font-size:17px;font-weight:bold'>Dimension 1: Vegetation Characteristics</span><br/><span style='font-family:Arial,sans-serif;font-size:13px'>Vegetation Structure, Species Composition, Canopy Characteristics and Seasonal Dynamics</span>"]
+    B["<span style='font-family:Georgia,serif;font-size:17px;font-weight:bold'>Dimension 1: Vegetation Characteristics</span><br/><span style='font-family:Arial,sans-serif;font-size:14px'>Vegetation Structure, Species Composition, Canopy Characteristics and Seasonal Dynamics</span>"]
 
-    C["<span style='font-family:Georgia,serif;font-size:17px;font-weight:bold'>Dimension 2: Observation Characteristics</span><br/><span style='font-family:Arial,sans-serif;font-size:13px'>Spectral information, Spatial Resolution, Temporal Information and Sensor Characteristics</span>"]
+    C["<span style='font-family:Georgia,serif;font-size:17px;font-weight:bold'>Dimension 2: Observation Characteristics</span><br/><span style='font-family:Arial,sans-serif;font-size:14px'>Spectral information, Spatial Resolution, Temporal Information and Sensor Characteristics</span>"]
 
-    D["<span style='font-family:Georgia,serif;font-size:17px;font-weight:bold'>Observable Vegetation Features</span><br/><span style='font-family:Arial,sans-serif;font-size:13px'>Spectral signatures, Vegetation indices, Structural features and Temporal characteristics</span>"]
+    D["<span style='font-family:Georgia,serif;font-size:17px;font-weight:bold'>Observable Vegetation Features</span><br/><span style='font-family:Arial,sans-serif;font-size:14px'>Spectral signatures, Vegetation indices, Structural features and Temporal characteristics</span>"]
 
-    E["<span style='font-family:Georgia,serif;font-size:17px;font-weight:bold'>Vegetation Separability and Discrimination</span><br/><span style='font-family:Arial,sans-serif;font-size:13px'>Distinguishability of dryland forests from other vegetation types</span>"]
+    E["<span style='font-family:Georgia,serif;font-size:17px;font-weight:bold'>Vegetation Separability and Discrimination</span><br/><span style='font-family:Arial,sans-serif;font-size:14px'>Distinguishability of dryland forests from other vegetation types</span>"]
 
-    F["<span style='font-family:Georgia,serif;font-size:17px;font-weight:bold'>Classification and Data Integration Strategies</span><br/><span style='font-family:Arial,sans-serif;font-size:13px'>Classification approaches, Feature combinations and Integration of different observation sources</span>"]
+    F["<span style='font-family:Georgia,serif;font-size:17px;font-weight:bold'>Classification and Data Integration Strategies</span><br/><span style='font-family:Arial,sans-serif;font-size:14px'>Classification approaches, Feature combinations and Integration of different observation sources</span>"]
 
-    G["<span style='font-family:Georgia,serif;font-size:19px;font-weight:bold'>Classification Performance and Robustness</span><br/><span style='font-family:Arial,sans-serif;font-size:15px'>Accuracy, Uncertainty, Class discrimination and Transferability</span>"]
+    G["<span style='font-family:Georgia,serif;font-size:17px;font-weight:bold'>Classification Performance and Robustness</span><br/><span style='font-family:Arial,sans-serif;font-size:14px'>Accuracy, Uncertainty, Class discrimination and Transferability</span>"]
 
-    H["<span style='font-family:Georgia,serif;font-size:19px;font-weight:bold'>Improved Dryland Forest identification and Mapping</span><br/><span style='font-family:Arial,sans-serif;font-size:15px'>More reliable spatial representation of Dryland Forests in Kenya</span>"]
+    H["<span style='font-family:Georgia,serif;font-size:19px;font-weight:bold'>Improved Dryland Forest identification and Mapping</span><br/><span style='font-family:Arial,sans-serif;font-size:16px'>More reliable spatial representation of Dryland Forests in Kenya</span>"]
 
     A --> B
     A --> C
