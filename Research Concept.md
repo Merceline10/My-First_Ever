@@ -1,5 +1,5 @@
 
-# Complete Research Guide Structure
+# Conceptual Framework
 
 ```mermaid
 %%{init: {
