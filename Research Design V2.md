@@ -50,5 +50,5 @@ flowchart TB
 
     linkStyle default stroke:#666666,stroke-width:1.5px;
 
-    style Col2 fill:transparent,stroke:none
+    
 ```
