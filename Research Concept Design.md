@@ -1,5 +1,6 @@
 
 # Research Guide Structure
+```mermaid
 
     A["<b>Research problem</b><br/>Misclassification of dryland forests and other vegetation types"]
 
@@ -34,4 +35,4 @@
     class D,E purple;
 
     linkStyle default stroke:#666666,stroke-width:1.5px;
-
+```
